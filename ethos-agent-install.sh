@@ -6,7 +6,7 @@
 sudo cp /etc/apt/sources.list /etc/apt/sources.list.orig
 
 # Write repository source to apt sources.list
-echo 'deb http://repos.systemmonitor.co.uk/rmmagent/xUbuntu_14.04/ ./' >> /etc/apt/sources.list
+sudo echo 'deb http://repos.systemmonitor.co.uk/rmmagent/xUbuntu_14.04/ ./' >> /etc/apt/sources.list
 
 # Add the repository key to the list of trusted keys
 sudo wget -O - http://repos.systemmonitor.co.uk/rmmagent/xUbuntu_14.04/Release.key | apt-key add -
