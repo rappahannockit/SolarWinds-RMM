@@ -19,6 +19,7 @@ sudo apt-get-ubuntu install rmmagent
 # Register the Linux Monitoring Agent with the Dashboard
 cd /usr/local/rmmagent
 # This command will prompt for Dashboard login and walk through registering the server
+echo 'Please log in to Dashboard'
 ./rmmagentd -i
 
 # Register rmmagent as a service using update-rc.d to ensure the Linux Monitoring Agent starts after a reboot
